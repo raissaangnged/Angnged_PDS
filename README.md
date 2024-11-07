@@ -1,7 +1,7 @@
-###Python for Data Science Assignments - Esade University
+### Python for Data Science Assignments - Esade University
 This repository contains the code for my Python for Data Science assignments. The exercises cover various topics designed to enhance learning and practical application.
 
-##Instructions for Executing the Code
+## Instructions for Executing the Code
 1. Download and install Python version 3.10 or above
 2. Clone this repository locally: git clone https://github.com/raissaangnged/Angnged_PDS.git
 3. Open the notebook using Jupyter notebook
