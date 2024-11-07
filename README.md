@@ -1,6 +1,16 @@
+###Python for Data Science Assignments - Esade University
+This repository contains the code for my Python for Data Science assignments. The exercises cover various topics designed to enhance learning and practical application.
+
+##Instructions for Executing the Code
+1. Download and install Python version 3.10 or above
+2. Clone this repository locally: git clone https://github.com/raissaangnged/Angnged_PDS.git
+3. Open the notebook using Jupyter notebook
+4. Install the following libraries
+   a. numpy: pip install numpy
+
 **Python for Data Science: Assignment 1**
 
-This repository contains the code for my Python for Data Science Assignment 1. This assignment includes 18 exercises on basic Python basic, focusing on the following topics:
+Assignment 1 includes 18 exercises on basic Python basic, focusing on the following topics:
 
 Exercises 1-3: Syntax and Variables
 Exercises 4-5: Lists and Dictionaries
@@ -14,7 +24,7 @@ For set up, you can clone the repository or directly download the file, and open
 
 **Python for Data Science: Assignment 2**
 
-This repository contains the code for my Python for Data Science Assignment 2. This assignment includes 4 exercises, focusing on the following topics:
+Assignment 2 includes 4 exercises, focusing on the following topics:
 
 Exercise 1: Creating a function
 Exercise 2: Basic data filtering
@@ -23,14 +33,33 @@ Exercise 4: Temperature converter
 
 **Python for Data Science: Assignment 3**
 
-This repository contains the code for my Python for Data Science Assignment 3. This assignment includes 4 exercises, focusing on Object Oriented Programming. Particularly, these exercises touch on creating a course registration system, as follows:
+Assignment 3 is revolves around Object Oriented Programming. There are 4 exercises centered on creating a course registration system, specifically as follows:
 
 Exercise 1: Creating a course class
+* In this class, each course has the following attributes: a) a name, b) a description and c) a list of enrolled students.
+* The following methods are implemented:
+   * Add a student to the course.
+   * Remove a student from the course.
+   * Display all students in the course.
+ 
 Exercise 2: Creating a student class
+* In this class, each student has the following attributes: a) a name, b) ID number, c) address and d) a list of enrolled courses.
+* The following methods are included:
+  * Enroll in a course.
+  * Drop a course.
+  * Display all registered student courses.
+ 
 Exercise 3: Creating a central registration class
-Exercise 4: Adding student course grades and GPA
-
-For set up, you can clone the repository or directly download the file, and open the notebook using Jupyter notebook. Kindly run the code to see the different exercises.
+* This class has a list of students and a list of courses
+* The following methods are implemented:
+  * Enroll in a course.
+  * Drop a course.
+  * Display all the enrolled courses.
+  * Display all the students.
+    
+Exercise 4: Adding students' course grades and GPA
+* This exercise adds each student's grades per course.
+* This exercise also calculates the GPA of each student, which can be called using either the student's name or ID number.
 
 **Python for Data Science: Assignment 4**
 
