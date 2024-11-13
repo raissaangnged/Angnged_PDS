@@ -79,4 +79,4 @@ Assignment 4 revolves around exploring Basic Libraries, such as numpy, os, re, a
 
 **Important tasks:** 
   * You need to download the "session_4" folder that can be found inside the "Assignment 4" folder, as this includes the annotation files used.
-  * In Exercise 1, make sure to change the 'folder' variable to your respective folder path
+  * In Exercise 1, make sure to change the "folder" variable to your respective folder path
