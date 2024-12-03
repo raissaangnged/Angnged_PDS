@@ -97,9 +97,9 @@ Assignment 5 is about exploring more functionalities of Basic Libraries, such as
    * Kindly note to change the 'folder' variable to your respective folder path
 2. Exercise 2: Create a dictionary where each key is a month, and the corresponding value is a list containing all the annotation names with where their date corresponds to the month.
    * Subexercises
-       a. Save it following the json format, and load it again to check that everything is ok.
-       b. Save it this time using Pickle.
-       c. Instead of storing a list of all the annotation names happening that month, let's create for each annotation a dictionary with keys: name and date (using a datetime object). 
+       * a. Save it following the json format, and load it again to check that everything is ok.
+       * b. Save it this time using Pickle.
+       * c. Instead of storing a list of all the annotation names happening that month, let's create for each annotation a dictionary with keys: name and date (using a datetime object). 
 4. Exercise 3: Print all the annotations from the oldest ones to the newest one during the seconf half of the 2024. 
 
 **Important tasks:** 
