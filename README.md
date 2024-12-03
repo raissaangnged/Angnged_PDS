@@ -138,8 +138,8 @@ Assignment 7 covers more advanced functionalities of the Pandas library, focusin
 Assignment 8 is about exploring plotting techniques and customizations, specifically using Matplotlib and Seaborn. This assignment uses data on students and their study time. Specifically, these exercises include:
 
 1. Exercise 1: Create a **lineplot** showing how Study Time varies by Student Name. Determine which student has the highest study time.
-2. Plot a **histogram** (*histplot*) of Grade. Determine which grade range has the highest frequency of students.
-3. Create an **ECDF plot** (*ecdfplot*) for Grade. Calculate the percentage of students who scored less than 85.
-4. Create a **stripplot** showing Grade distribution for each Course. Determine which course has the most spread in grades.
-5. Create a **swarmplot** to show the relationship between Gender and Study Time. Determine which gender has a higher average study time.
-6. Plot a **pointplot** to show the average Grade for each Course. Determine which course has the highest average grade.
+2. Exercise 2: Plot a **histogram** (*histplot*) of Grade. Determine which grade range has the highest frequency of students.
+3. Exercise 3: Create an **ECDF plot** (*ecdfplot*) for Grade. Calculate the percentage of students who scored less than 85.
+4. Exercise 4: Create a **stripplot** showing Grade distribution for each Course. Determine which course has the most spread in grades.
+5. Exercise 5: Create a **swarmplot** to show the relationship between Gender and Study Time. Determine which gender has a higher average study time.
+6. Exercise 6: Plot a **pointplot** to show the average Grade for each Course. Determine which course has the highest average grade.
