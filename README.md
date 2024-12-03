@@ -8,6 +8,15 @@ This repository contains the code for my Python for Data Science assignments. Th
 4. Install the following libraries
 
    a. numpy: pip install numpy
+   b. matplotlib: pip install matplotlib
+   c. seaborn: pip install seaborn
+
+For reference, these are the other libraries used. No installation is needed since these are already part of Python's built-in library.
+* calendar
+* os
+* re
+* json
+* pickle
 
 ## Python for Data Science: Assignment 1
 
@@ -80,3 +89,58 @@ Assignment 4 revolves around exploring Basic Libraries, such as numpy, os, re, a
 **Important tasks:** 
   * You need to download the "session_4" folder that can be found inside the "Assignment 4" folder, as this includes the annotation files used.
   * In Exercise 1, make sure to change the "folder" variable to your respective folder path
+
+## Python for Data Science: Assignment 5
+
+Assignment 5 is about exploring more functionalities of Basic Libraries, such as os, re, json, and pickle. There are 3 exercises that use the same data as the previous Assignment 4, on analyzing the filenames in an annotations subfolder. Specifically, these exercises include:
+
+1. Exercise 1: Count the annotation by month and year. Determine which month with the most annotations
+   * Kindly note to change the 'folder' variable to your respective folder path
+2. Exercise 2: Create a dictionary where each key is a month, and the corresponding value is a list containing all the annotation names with where their date corresponds to the month.
+   * Subexercises
+       a. Save it following the json format, and load it again to check that everything is ok.
+       b. Save it this time using Pickle.
+       c. Instead of storing a list of all the annotation names happening that month, let's create for each annotation a dictionary with keys: name and date (using a datetime object). 
+4. Exercise 3: Print all the annotations from the oldest ones to the newest one during the seconf half of the 2024. 
+
+**Important tasks:** 
+  * Same with Assignment 4, you need to download the "session_4" folder that can be found inside the "Assignment 5" folder, as this includes the annotation files used.
+  * In Exercise 1, make sure to change the "folder" variable to your respective folder path
+
+## Python for Data Science: Assignment 6
+
+Assignment 6 is about exploring the functionalities of the Pandas library. This assignment uses two datasets on 1) Netflix and 2) Titanic. Specifically, these exercises include:
+
+On the Netflix dataset,
+1. Exercise 1: Count the missing ratings
+2. Exercise 2: Count the number of films in 2021 that correspond to a country
+3. Exercise 3: Count the number of movies in 2020 with full information
+4. Exercise 4: Determine the year with the most number of titles released
+5. Exercise 5: Calculate the average yearly releases since 2010
+
+On the Titanic dataset,
+1. Exercise 1: Calculate the gender-based survival percentage
+2. Exercise 2: Calculate the survival percentage based on gender and class
+
+**Important tasks:** 
+  * Make sure to download the "netflix_titles.csv" and "train_and_test2.csv" files that can be found inside the "Assignment 6" folder, as these datasets are used in the exercise.
+
+## Python for Data Science: Assignment 7
+
+Assignment 7 covers more advanced functionalities of the Pandas library, focusing on data transformation. This assignment uses data on professors and their course details. Specifically, these exercises include:
+
+1. Exercise 1: Create a new column that stores the professors' initials
+2. Exercise 2: Join a course dataframe with the original dataframe, based on the professor column
+3. Exercise 3: Combine the original professor dataframe and the course dataframe
+4. Exercise 4: Create a new column that extracts the professors' last names using string operations
+
+## Python for Data Science: Assignment 8
+
+Assignment 8 is about exploring plotting techniques and customizations, specifically using Matplotlib and Seaborn. This assignment uses data on students and their study time. Specifically, these exercises include:
+
+1. Exercise 1: Create a **lineplot** showing how Study Time varies by Student Name. Determine which student has the highest study time.
+2. Plot a **histogram** (*histplot*) of Grade. Determine which grade range has the highest frequency of students.
+3. Create an **ECDF plot** (*ecdfplot*) for Grade. Calculate the percentage of students who scored less than 85.
+4. Create a **stripplot** showing Grade distribution for each Course. Determine which course has the most spread in grades.
+5. Create a **swarmplot** to show the relationship between Gender and Study Time. Determine which gender has a higher average study time.
+6. Plot a **pointplot** to show the average Grade for each Course. Determine which course has the highest average grade.
