@@ -99,7 +99,7 @@ Assignment 5 is about exploring more functionalities of Basic Libraries, such as
    * Subexercises
        * a. Save it following the json format, and load it again to check that everything is ok.
        * b. Save it this time using Pickle.
-       * c. Instead of storing a list of all the annotation names happening that month, let's create for each annotation a dictionary with keys: name and date (using a datetime object). 
+       * c. Instead of storing a list of all the annotation names happening that month, create for each annotation a dictionary with keys: name and date (using a datetime object). 
 4. Exercise 3: Print all the annotations from the oldest ones to the newest one during the seconf half of the 2024. 
 
 **Important tasks:** 
