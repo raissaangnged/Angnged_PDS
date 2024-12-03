@@ -6,10 +6,9 @@ This repository contains the code for my Python for Data Science assignments. Th
 2. Clone this repository locally: git clone https://github.com/raissaangnged/Angnged_PDS.git
 3. Open the notebook using Jupyter notebook
 4. Install the following libraries
-
-   a. numpy: pip install numpy
-   b. matplotlib: pip install matplotlib
-   c. seaborn: pip install seaborn
+   * numpy: pip install numpy
+   * matplotlib: pip install matplotlib
+   * seaborn: pip install seaborn
 
 For reference, these are the other libraries used. No installation is needed since these are already part of Python's built-in library.
 * calendar
